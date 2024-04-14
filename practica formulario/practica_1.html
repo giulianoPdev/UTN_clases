@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="assets/image/63-500x300.jpg" alt="logo" >
+    <form>
+        <div>
+            <label for="Nombre">Nombre/s</label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Giuliano Federico"  required minlength="3" maxlength="30">
+        </div>
+        <div>
+            <label for="Apellido">Apellido/s</label>
+            <input type="text" name="Apellido" id="Apellido" placeholder="Ponce" required minlength="2" maxlength="20">
+        </div>
+        <div>
+            <label for="email">Ingrese su email</label>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+        </div>
+        <div>
+            <label for="contraseña">Ingrese su contraseña</label>
+            <input type="password" name="password" id="contraseña" placeholder="123abc">
+        </div>
+        <div>
+            <label for="contacto">Ingrese un numero de contacto</label>
+            <input type="number" name="contacto" id="contacto" placeholder="123456789">
+        </div>
+        <div>
+            <label for="domicilio">Ingrese su domicilio</label>
+            <input type="text" name="domicilio" id="domicilio" placeholder="Av.Oroño 534">
+        </div>
+        <div>
+            <label for="ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad" placeholder="Rosario">
+        </div>
+        <div>
+            <label for="pais">Pais de nacimiento</label>
+            <select name="pais" id="pais">
+                <option value="ARG">Argentina</option>
+                <option value="CHI">Chile</option>
+                <option value="BR">Brasil</option>
+                <option value="URU">Uruguay</option>
+                <option value="PAR">Paraguay</option>
+                <option value="No" selected disabled>No Seleccionado</option>
+            </select>
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" required min="18" max="80" placeholder="33">
+        </div>
+        <div>
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <div>
+            <label for="pago">Seleccione un metodo de pago:</label>
+            <br>
+            <span>Efectivo</span><input type="radio" name="pago" id="Efectivo">
+            <span>Credito</span><input type="radio" name="pago" id="credito">
+            <span>Debito</span><input type="radio" name="pago" id="debito">
+        </div>
+        <div>
+            <label for="Comprobante">Ingrese el Comprobante</label>
+            <input type="file" name="Comprobante" id="Comprobante">
+        </div>
+        <div>
+            <label for="Mensaje">observaciones</label>
+            <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Hola, buenas tardes."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Confirmar">
+            <button type="button">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
