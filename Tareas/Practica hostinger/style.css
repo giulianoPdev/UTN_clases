@@ -1,0 +1,132 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.conteiner-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.conteiner-title .title{
+    color: #2F1C6A;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.content-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* style cards */
+
+.content-cards .cards{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content-cards .cards .client-card{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid #D5DFFF;
+    overflow: hidden;
+}
+
+.content-cards .cards .client-card .client-review{
+    height: 75%;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-cards .cards .client-card .client-review .score{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.content-cards .cards .client-card .client-review .score .star{
+    color: #673DE6;
+    font-size: 20px;
+}
+
+.content-cards .cards .client-card .client-review .review{
+    height: 55%;
+    color: #575A78;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.content-cards .cards .client-card .client-review .link-review{
+    color: #673DE6;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.content-cards .cards .client-card .client{
+    height: 25%;
+    background-color: #F4F5FF;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #D5DFFF;
+    padding: 20px 30px;
+}
+
+.content-cards .cards .client-card .client .client-img{
+    margin-right: 10px;
+}
+
+.content-cards .cards .client-card .client .client-img img{
+    width: 60px;
+}
+
+.content-cards .cards .client-card .client .client-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.content-cards .cards .client-card .client .client-info .client-name{
+    color: #2F1C6A;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.content-cards .cards .client-card .client .client-info .client-job{
+    color: #575A78;
+    font-size: 14px;
+}
+
+/* style cards end */
+
+.interaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.interaction .btn-interaction{
+    color: #673DE6;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid #673de6;
+    border-radius: 8px;
+    padding: 10px 50px;
+}
